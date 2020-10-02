@@ -1,0 +1,13 @@
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\bin\Debug\netcoreapp3.1\LogParser.exe
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\bin\Debug\netcoreapp3.1\LogParser.deps.json
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\bin\Debug\netcoreapp3.1\LogParser.runtimeconfig.json
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\bin\Debug\netcoreapp3.1\LogParser.runtimeconfig.dev.json
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\bin\Debug\netcoreapp3.1\LogParser.dll
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\bin\Debug\netcoreapp3.1\LogParser.pdb
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.csprojAssemblyReference.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.AssemblyInfoInputs.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.AssemblyInfo.cs
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.csproj.CoreCompileInputs.cache
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.dll
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.pdb
+C:\Users\sasha\OneDrive\Рабочий стол\Parser\LogParser\obj\Debug\netcoreapp3.1\LogParser.genruntimeconfig.cache
