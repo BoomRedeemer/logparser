@@ -1,1 +1,3 @@
-Это лог
+  LogInit: Display: Success - 0 error(s), 7613 warning(s)
+  ##### Result: Reason=Process requested exit with no fatal errors, Code=0
+  ##### Result: Reason=Process requested exit with no fatal errors, Code=0
