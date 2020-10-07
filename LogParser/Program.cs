@@ -6,14 +6,11 @@ namespace LogParser
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Введите путь к папке с логами или прямой путь к логу");
-            string sourceDirectory = Console.ReadLine();
+        {         
+            string sourceDirectory = args[0];
+            string searchWord = args[1];
 
-            Console.WriteLine("Введите слово или его часть для проверки совпадения строк в логе");
-            string searchWord = Console.ReadLine();
-
-           string logfilePath = @"D:\logloglog.txt"; // путь где будет создаваться файл со строками
+           string logfilePath = @"D:\laglog.txt"; // путь где будет создаваться файл со строками
 
             if (File.Exists(logfilePath))
             {
@@ -25,9 +22,10 @@ namespace LogParser
 
             }
             
+
             try
             {
-                var txtFiles = Directory.EnumerateFiles(sourceDirectory, "*.log");
+                var txtFiles = Directory.EnumerateFiles(sourceDirectory, "*.*");
                 foreach (string currentFile in txtFiles)
                 {
                     string fileName = currentFile.Substring(sourceDirectory.Length + 1);
@@ -40,10 +38,8 @@ namespace LogParser
                     {
                         if (line1.Contains(searchWord))
                         {
-                            Console.WriteLine(line1);
-                            File.AppendAllText(logfilePath,line1 + Environment.NewLine);
+                            File.AppendAllText(logfilePath, line1 + Environment.NewLine);
                         }
-                       
                     }
                     sr.Close();
                 }
@@ -52,25 +48,21 @@ namespace LogParser
             {
                 try
                 {
-
                     using StreamReader sr = new StreamReader(sourceDirectory);
                     string line2;
                     while ((line2 = sr.ReadLine()) != null)
                     {
                         if (line2.Contains(searchWord))
-                        {
-                            Console.WriteLine(line2);
+                        {                     
                             File.AppendAllText(logfilePath, line2 + Environment.NewLine);
                         }
-                       
                     }
+
                 }
                 catch (Exception)
-                {
-                    Console.WriteLine("Такого пути или файла нет");
+                { 
                 }
             }
         }
-
     }
 }

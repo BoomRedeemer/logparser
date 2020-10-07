@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "G50nz3t0/ZFMX3DsQmMPOM3G+9hbN0i26V3VqkRNV7XxJ/BtQ3booutLcrRZVScZmTQl3a/MSiNWhxzzoyhy3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sasha\\OneDrive\\Рабочий стол\\Parser\\LogParser\\LogParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\3.1.5\\microsoft.netcore.app.runtime.win-x64.3.1.5.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\3.1.5\\microsoft.windowsdesktop.app.runtime.win-x64.3.1.5.nupkg.sha512",
+    "C:\\Users\\sasha\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\3.1.5\\microsoft.aspnetcore.app.runtime.win-x64.3.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
